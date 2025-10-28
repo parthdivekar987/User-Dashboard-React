@@ -15,7 +15,7 @@ function App() {
     const fetchUsers = async () => {
         try {
           setLoading(true);
-          const response = await fetch("https://6874ce63dd06792b9c954fc7.mockapi.io/api/v1/users");
+          const response = await fetch("https://69003c49ff8d792314b91856.mockapi.io/users");
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
